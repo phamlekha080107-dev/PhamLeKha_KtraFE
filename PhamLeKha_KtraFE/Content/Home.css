@@ -1,0 +1,110 @@
+﻿* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.search-bar {
+    display: flex;
+    width: 600px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.user-action {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.home {
+    padding: 10px;
+}
+
+.acount {
+    padding: 10px;
+}
+
+.cart {
+    padding: 10px;
+}
+
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin: 40px;
+}
+
+.content {
+    margin: 40px 350px;
+    display: block;
+}
+
+
+
+
+.box {
+    height:100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+
+.danhmuc {
+    
+}
+
+    .danhmuc ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .danhmuc a {
+        text-decoration: none;
+        
+    }
+
+.items {
+    display: flex;
+}
+
+.items-item {
+
+}
+
+.img {
+    background-color: darkolivegreen;
+    width: 100px;
+    height: 100px;
+}
